@@ -1,3 +1,14 @@
+example copied from [next.js environment variables example](https://github.com/vercel/next.js/tree/canary/examples/environment-variables)
+# Reproduce
+
+1. `npm install`
+2. `npm run dev`
+3. Access `http://localhost:3000`
+4. The `ENV_VARIABLE` and `ENV_LOCAL_VARIABLE` are undefined
+5. Remove `concurrentFeatures: true` in `next.config.js`
+6. restart the dev server, not the `ENV_VARIABLE` and `ENV_LOCAL_VARIABLE` is loaded.
+
+
 # Environment Variables Example
 
 This example shows how to use [environment variables in Next.js](https://nextjs.org/docs/basic-features/environment-variables).
