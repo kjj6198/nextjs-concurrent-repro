@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "^18.0.0-alpha-00ced1e2b-20211102",
+    "react-dom": "^18.0.0-alpha-00ced1e2b-20211102"
+  }
+}
