@@ -6,7 +6,7 @@ example copied from [next.js environment variables example](https://github.com/v
 3. Access `http://localhost:3000`
 4. The `ENV_VARIABLE` and `ENV_LOCAL_VARIABLE` are undefined
 5. Remove `concurrentFeatures: true` in `next.config.js`
-6. restart the dev server, not the `ENV_VARIABLE` and `ENV_LOCAL_VARIABLE` is loaded.
+6. restart the dev server, now the `ENV_VARIABLE` and `ENV_LOCAL_VARIABLE` are loaded.
 
 
 # Environment Variables Example
